@@ -53,7 +53,7 @@ RSpec.describe Centaur do
     expect(centaur.shoot).to eq('NO!')
   end
 
-  xit 'will not sleep when it is standing' do
+  it 'will not sleep when it is standing' do
     centaur = Centaur.new('George', 'Palomino')
 
     expect(centaur.sleep).to eq('NO!')
